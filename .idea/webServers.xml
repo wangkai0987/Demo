@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5351fc62-c15b-4c1f-b8c6-e2e11d628544" name="remote demo" url="http://49.234.148.35:8080">
+        <fileTransfer host="49.234.148.35" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/usr/local/apache-tomcat-8.5.53/webapps" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
