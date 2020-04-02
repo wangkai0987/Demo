@@ -1,0 +1,8 @@
+POST http://localhost:8080/invokeMethod?Action=123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"123"}
+
+###
