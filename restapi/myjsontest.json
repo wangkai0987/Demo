@@ -1,0 +1,24 @@
+{
+  "Host": "https://console.tim.qq.com",
+  "Action": "v4/group_open_http_svc/get_group_info",
+  "Header": {
+    "Content-Type": "param1",
+    "Transfer-Encoding": "chunked",
+    "Keep-Alive": "timeout=58"
+  },
+  "Param":{
+    "key": "b680b732f3f4e3dcbc6c6e5257ca3c8745697cd889ffbb6fed15dad2bbb314e8",
+    "sdkappid": 1400327902,
+    "identifier": "administrator",
+    "usersig": "",
+    "random": "",
+    "expiretime": 604800,
+    "contenttype": "json"
+  },
+  "Body": {
+    "GroupIdList": [
+      "@TGS#1NVTZEAE4",
+      "@TGS#1CXTZEAET"
+    ]
+  }
+}
